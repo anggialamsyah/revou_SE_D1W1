@@ -1,0 +1,33 @@
+/* Variabel */
+:root {
+    --utama:#006989;
+    --kedua:#E88D67;
+    --text:#F3F7EC;
+} 
+
+/* Custome Color */
+.bg-utama {
+    background-color: var(--utama);
+}
+
+.bg-kedua {
+    background-color: var(--kedua);
+}
+
+.text-color {
+    color: var(--text);
+}
+
+button {
+    width: 100%;
+}
+
+.table {
+    padding: 5px;
+}
+
+.table-calculator {
+    border: solid var(--kedua);
+    padding: 2px;
+    align-items: center;
+}
